@@ -27,7 +27,7 @@ from oslo.config import cfg
 import socket
 import sys
 
-import wsproxy
+import websockify as wsproxy
 
 from nova import config
 from nova import context
